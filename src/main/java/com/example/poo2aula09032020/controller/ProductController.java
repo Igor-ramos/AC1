@@ -23,7 +23,7 @@ public class ProductController
     private ProductServices ps;
 
     @GetMapping("/product/{code}")
-    public ModelAndView getProd(@PathVariable("codigo")int code)
+    public ModelAndView getProd(@PathVariable("code")int code)
     {
         ModelAndView mv = new ModelAndView("prodbyorder");
 
